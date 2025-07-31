@@ -1,0 +1,79 @@
+/* --- Losta Masta Font Faces --- */
+@font-face {
+    font-family: 'Losta Masta';
+    src: url('../fonts/LostaMasta/LostaMasta-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Losta Masta';
+    src: url('../fonts/LostaMasta/LostaMasta-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Losta Masta';
+    src: url('../fonts/LostaMasta/LostaMasta-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Losta Masta';
+    src: url('../fonts/LostaMasta/LostaMasta-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Losta Masta';
+    src: url('../fonts/LostaMasta/LostaMasta-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Losta Masta';
+    src: url('../fonts/LostaMasta/LostaMasta-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Losta Masta';
+    src: url('../fonts/LostaMasta/LostaMasta-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+:root {
+    /* Brand Colors */
+    --color-beige: #F4E3CB;
+    --color-pink: #FF9A9F;
+    --color-primary-red: #DE0D22;
+    --color-orange: #FF4A01;
+    --color-yellow: #FCB207;
+    --color-black: #373737;
+
+    /* Font Families */
+    --font-heading: 'Losta Masta', serif;
+    --font-subheading: 'La Belle Aurore', cursive;
+    --font-body: 'Montserrat', Arial, sans-serif;
+
+    /* Font Sizes */
+    --fs-heading-1: 2.4rem;
+    /* Main page title */
+    --fs-heading-2: 2rem;
+    /* Section titles */
+    --fs-heading-3: 1.5rem;
+    /* Subsection */
+    --fs-subheading: 1.2rem;
+    /* Smaller subtitle */
+    --fs-body: 1rem;
+    --fs-small: 0.9rem;
+
+    --border-radius: 7px;
+    --btn-shadow: 0 2px 5px rgba(222, 13, 34, 0.04);
+}

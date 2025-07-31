@@ -1,0 +1,82 @@
+:root {
+    --navbar-red: #db1c30;
+    --tab-beige: #F4E3CB;
+    --hover-outline: #F4E3CB;
+    --hover-fill: rgba(244, 227, 203, 0.17);
+    --tab-radius: 50px;
+    --tab-font: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: var(--navbar-red);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.25rem;
+    min-height: 72px;
+    box-shadow: 0 3px 14px rgba(219, 28, 48, 0.08);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 56px;
+    width: auto;
+    margin-right: 18px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: var(--tab-beige);
+    font-family: var(--tab-font);
+    font-weight: 600;
+    font-size: 1.08rem;
+    text-decoration: none;
+    padding: 10px 26px;
+    border-radius: var(--tab-radius);
+    border: 2px solid transparent;
+    background: none;
+    transition: border 0.16s, color 0.16s, background 0.16s;
+    display: inline-block;
+    outline: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    border: 2px solid var(--hover-outline);
+    background: var(--hover-fill);
+    color: var(--tab-beige);
+    box-shadow: 0 2px 18px 0 rgba(244, 227, 203, 0.12);
+}
+
+.nav-icon-link {
+    padding: 7px 13px;
+    border-radius: var(--tab-radius);
+    color: var(--tab-beige);
+    font-size: 1.23rem;
+    display: inline-flex;
+    align-items: center;
+    transition: border 0.16s, background 0.16s, color 0.18s;
+    border: 2px solid transparent;
+}
+
+.nav-icon-link:hover,
+.nav-icon-link.active {
+    border: 2px solid var(--hover-outline);
+    background: var(--hover-fill);
+    color: var(--tab-beige);
+    box-shadow: 0 2px 18px 0 rgba(244, 227, 203, 0.12);
+}
+
+/* Make sure Montserrat font is loaded in your public/index.html */

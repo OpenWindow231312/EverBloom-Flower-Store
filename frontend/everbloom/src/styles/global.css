@@ -1,0 +1,72 @@
+/* ----------------------
+   Global Styles - EverBloom
+-------------------------- */
+
+body {
+    background: var(--color-beige);
+    color: var(--color-black);
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    margin: 0;
+}
+
+/* Headings */
+h1,
+.heading-1 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    /* Use bold by default for h1 */
+    font-size: var(--fs-heading-1);
+    color: var(--color-primary-red);
+}
+
+h2,
+.heading-2 {
+    font-family: var(--font-heading);
+    font-weight: 500;
+    /* Medium for h2 */
+    font-size: var(--fs-heading-2);
+    color: var(--color-primary-red);
+}
+
+h3,
+.heading-3 {
+    font-family: var(--font-heading);
+    font-weight: 400;
+    /* Regular for h3 */
+    font-size: var(--fs-heading-3);
+    color: var(--color-pink);
+}
+
+/* Subheadings */
+.subheading {
+    font-family: var(--font-subheading);
+    font-size: var(--fs-subheading);
+    color: var(--color-pink);
+}
+
+/* Buttons */
+.button-primary {
+    background: var(--color-yellow);
+    color: var(--color-black);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 0.8rem 1.8rem;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: var(--fs-body);
+    box-shadow: var(--btn-shadow);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button-primary:hover {
+    background: var(--color-orange);
+    color: var(--color-beige);
+}
+
+/* Links */
+a {
+    color: var(--color-primary-red);
+    text-decoration: none;
+}
